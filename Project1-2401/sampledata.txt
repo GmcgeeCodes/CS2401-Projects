@@ -1,0 +1,414 @@
+Script started on Fri Jan 31 13:09:50 2020
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+[?1034hbash-3.2$ G[Kg++ *.cc
+bash-3.2$ ./a.out
+Chose from the Following
+1) RECORD a run
+2) FIND a run by entering time and distance w option to remove
+3) VIEW all the runs in the Journal
+4) DISPLAY runs of a specific distance
+5) SORT by TIME
+6) SORT by DISTANCE
+7) TOTAL TIME
+8) TOTAL DISTANCE
+9) AVERAGE PACE
+0) QUIT
+1
+ Please enter the time of your run in hours, minutes, seconds and the distance in miles respectively... 
+2 3 6 7
+Chose from the Following
+1) RECORD a run
+2) FIND a run by entering time and distance w option to remove
+3) VIEW all the runs in the Journal
+4) DISPLAY runs of a specific distance
+5) SORT by TIME
+6) SORT by DISTANCE
+7) TOTAL TIME
+8) TOTAL DISTANCE
+9) AVERAGE PACE
+0) QUIT
+1
+ Please enter the time of your run in hours, minutes, seconds and the distance in miles respectively... 
+2 3 7 8 9 
+Chose from the Following
+1) RECORD a run
+2) FIND a run by entering time and distance w option to remove
+3) VIEW all the runs in the Journal
+4) DISPLAY runs of a specific distance
+5) SORT by TIME
+6) SORT by DISTANCE
+7) TOTAL TIME
+8) TOTAL DISTANCE
+9) AVERAGE PACE
+0) QUIT
+1
+ Please enter the time of your run in hours, minutes, seconds and the distance in miles respectively... 
+12 3 1 7
+Chose from the Following
+1) RECORD a run
+2) FIND a run by entering time and distance w option to remove
+3) VIEW all the runs in the Journal
+4) DISPLAY runs of a specific distance
+5) SORT by TIME
+6) SORT by DISTANCE
+7) TOTAL TIME
+8) TOTAL DISTANCE
+9) AVERAGE PACE
+0) QUIT
+1 
+ Please enter the time of your run in hours, minutes, seconds and the distance in miles respectively... 
+5 7 91  2
+Chose from the Following
+1) RECORD a run
+2) FIND a run by entering time and distance w option to remove
+3) VIEW all the runs in the Journal
+4) DISPLAY runs of a specific distance
+5) SORT by TIME
+6) SORT by DISTANCE
+7) TOTAL TIME
+8) TOTAL DISTANCE
+9) AVERAGE PACE
+0) QUIT
+1
+ Please enter the time of your run in hours, minutes, seconds and the distance in miles respectively... 
+2875    8 7 5
+Chose from the Following
+1) RECORD a run
+2) FIND a run by entering time and distance w option to remove
+3) VIEW all the runs in the Journal
+4) DISPLAY runs of a specific distance
+5) SORT by TIME
+6) SORT by DISTANCE
+7) TOTAL TIME
+8) TOTAL DISTANCE
+9) AVERAGE PACE
+0) QUIT
+3
+Run number(1) 2:03:06 7.0
+
+Run number(2) 2:03:07 8.0
+
+Run number(3) 12:03:01 7.0
+
+Run number(4) 5:07:09 2.0
+
+Run number(5) 2:08:07 5.0
+
+Chose from the Following
+1) RECORD a run
+2) FIND a run by entering time and distance w option to remove
+3) VIEW all the runs in the Journal
+4) DISPLAY runs of a specific distance
+5) SORT by TIME
+6) SORT by DISTANCE
+7) TOTAL TIME
+8) TOTAL DISTANCE
+9) AVERAGE PACE
+0) QUIT
+1
+ Please enter the time of your run in hours, minutes, seconds and the distance in miles respectively... 
+5 6 7 2
+Chose from the Following
+1) RECORD a run
+2) FIND a run by entering time and distance w option to remove
+3) VIEW all the runs in the Journal
+4) DISPLAY runs of a specific distance
+5) SORT by TIME
+6) SORT by DISTANCE
+7) TOTAL TIME
+8) TOTAL DISTANCE
+9) AVERAGE PACE
+0) QUIT
+2 65  5 7
+ Please enter the time of your run in hours, minutes, seconds and the distance in miles respectively... 
+1 1 2 6 7
+Sorry, the run you wished to search for was not found!
+Chose from the Following
+1) RECORD a run
+2) FIND a run by entering time and distance w option to remove
+3) VIEW all the runs in the Journal
+4) DISPLAY runs of a specific distance
+5) SORT by TIME
+6) SORT by DISTANCE
+7) TOTAL TIME
+8) TOTAL DISTANCE
+9) AVERAGE PACE
+0) QUIT
+ Please enter the time of your run in hours, minutes, seconds and the distance in miles respectively... 
+1 2 3 6 8
+Sorry, the run you wished to search for was not found!
+Chose from the Following
+1) RECORD a run
+2) FIND a run by entering time and distance w option to remove
+3) VIEW all the runs in the Journal
+4) DISPLAY runs of a specific distance
+5) SORT by TIME
+6) SORT by DISTANCE
+7) TOTAL TIME
+8) TOTAL DISTANCE
+9) AVERAGE PACE
+0) QUIT
+Run number(1) 5:07:09 2.0
+
+Run number(2) 5:06:07 2.0
+
+Run number(3) 2:08:07 5.0
+
+Run number(4) 2:03:06 7.0
+
+Run number(5) 12:03:01 7.0
+
+Run number(6) 2:03:07 8.0
+
+Chose from the Following
+1) RECORD a run
+2) FIND a run by entering time and distance w option to remove
+3) VIEW all the runs in the Journal
+4) DISPLAY runs of a specific distance
+5) SORT by TIME
+6) SORT by DISTANCE
+7) TOTAL TIME
+8) TOTAL DISTANCE
+9) AVERAGE PACE
+0) QUIT
+31.0
+Chose from the Following
+1) RECORD a run
+2) FIND a run by entering time and distance w option to remove
+3) VIEW all the runs in the Journal
+4) DISPLAY runs of a specific distance
+5) SORT by TIME
+6) SORT by DISTANCE
+7) TOTAL TIME
+8) TOTAL DISTANCE
+9) AVERAGE PACE
+0) QUIT
+3
+Run number(1) 5:07:09 2.0
+
+Run number(2) 5:06:07 2.0
+
+Run number(3) 2:08:07 5.0
+
+Run number(4) 2:03:06 7.0
+
+Run number(5) 12:03:01 7.0
+
+Run number(6) 2:03:07 8.0
+
+Chose from the Following
+1) RECORD a run
+2) FIND a run by entering time and distance w option to remove
+3) VIEW all the runs in the Journal
+4) DISPLAY runs of a specific distance
+5) SORT by TIME
+6) SORT by DISTANCE
+7) TOTAL TIME
+8) TOTAL DISTANCE
+9) AVERAGE PACE
+0) QUIT
+2
+ Please enter the time of your run in hours, minutes, seconds and the distance in miles respectively... 
+2 2 3 7 8
+Distance: 8.0 miles 
+Pace: 0:15:23 per mile
+Would you like to remove the run displayed? (Y/N): y
+The run has been removed!
+Chose from the Following
+1) RECORD a run
+2) FIND a run by entering time and distance w option to remove
+3) VIEW all the runs in the Journal
+4) DISPLAY runs of a specific distance
+5) SORT by TIME
+6) SORT by DISTANCE
+7) TOTAL TIME
+8) TOTAL DISTANCE
+9) AVERAGE PACE
+0) QUIT
+3
+Run number(1) 5:07:09 2.0
+
+Run number(2) 5:06:07 2.0
+
+Run number(3) 2:08:07 5.0
+
+Run number(4) 2:03:06 7.0
+
+Run number(5) 12:03:01 7.0
+
+Chose from the Following
+1) RECORD a run
+2) FIND a run by entering time and distance w option to remove
+3) VIEW all the runs in the Journal
+4) DISPLAY runs of a specific distance
+5) SORT by TIME
+6) SORT by DISTANCE
+7) TOTAL TIME
+8) TOTAL DISTANCE
+9) AVERAGE PACE
+0) QUIT
+4
+Enter a distance to view.
+7
+Run number(4) 2:03:06 7.0
+Run number(5) 12:03:01 7.0
+Chose from the Following
+1) RECORD a run
+2) FIND a run by entering time and distance w option to remove
+3) VIEW all the runs in the Journal
+4) DISPLAY runs of a specific distance
+5) SORT by TIME
+6) SORT by DISTANCE
+7) TOTAL TIME
+8) TOTAL DISTANCE
+9) AVERAGE PACE
+0) QUIT
+3
+Run number(1) 5:07:09 2.0
+
+Run number(2) 5:06:07 2.0
+
+Run number(3) 2:08:07 5.0
+
+Run number(4) 2:03:06 7.0
+
+Run number(5) 12:03:01 7.0
+
+Chose from the Following
+1) RECORD a run
+2) FIND a run by entering time and distance w option to remove
+3) VIEW all the runs in the Journal
+4) DISPLAY runs of a specific distance
+5) SORT by TIME
+6) SORT by DISTANCE
+7) TOTAL TIME
+8) TOTAL DISTANCE
+9) AVERAGE PACE
+0) QUIT
+5
+Run number(1) 2:03:06 7.0
+
+Run number(2) 2:08:07 5.0
+
+Run number(3) 5:06:07 2.0
+
+Run number(4) 5:07:09 2.0
+
+Run number(5) 12:03:01 7.0
+
+Chose from the Following
+1) RECORD a run
+2) FIND a run by entering time and distance w option to remove
+3) VIEW all the runs in the Journal
+4) DISPLAY runs of a specific distance
+5) SORT by TIME
+6) SORT by DISTANCE
+7) TOTAL TIME
+8) TOTAL DISTANCE
+9) AVERAGE PACE
+0) QUIT
+6
+Run number(1) 5:06:07 2.0
+
+Run number(2) 5:07:09 2.0
+
+Run number(3) 2:08:07 5.0
+
+Run number(4) 2:03:06 7.0
+
+Run number(5) 12:03:01 7.0
+
+Chose from the Following
+1) RECORD a run
+2) FIND a run by entering time and distance w option to remove
+3) VIEW all the runs in the Journal
+4) DISPLAY runs of a specific distance
+5) SORT by TIME
+6) SORT by DISTANCE
+7) TOTAL TIME
+8) TOTAL DISTANCE
+9) AVERAGE PACE
+0) QUIT
+7
+26:27:30
+Chose from the Following
+1) RECORD a run
+2) FIND a run by entering time and distance w option to remove
+3) VIEW all the runs in the Journal
+4) DISPLAY runs of a specific distance
+5) SORT by TIME
+6) SORT by DISTANCE
+7) TOTAL TIME
+8) TOTAL DISTANCE
+9) AVERAGE PACE
+0) QUIT
+8
+23.0
+Chose from the Following
+1) RECORD a run
+2) FIND a run by entering time and distance w option to remove
+3) VIEW all the runs in the Journal
+4) DISPLAY runs of a specific distance
+5) SORT by TIME
+6) SORT by DISTANCE
+7) TOTAL TIME
+8) TOTAL DISTANCE
+9) AVERAGE PACE
+0) QUIT
+9
+1:09:01
+Chose from the Following
+1) RECORD a run
+2) FIND a run by entering time and distance w option to remove
+3) VIEW all the runs in the Journal
+4) DISPLAY runs of a specific distance
+5) SORT by TIME
+6) SORT by DISTANCE
+7) TOTAL TIME
+8) TOTAL DISTANCE
+9) AVERAGE PACE
+0) QUIT
+0
+Thank you for using our software.
+bash-3.2$ ./a.outg++ *.cc[1P./a.out
+Chose from the Following
+1) RECORD a run
+2) FIND a run by entering time and distance w option to remove
+3) VIEW all the runs in the Journal
+4) DISPLAY runs of a specific distance
+5) SORT by TIME
+6) SORT by DISTANCE
+7) TOTAL TIME
+8) TOTAL DISTANCE
+9) AVERAGE PACE
+0) QUIT
+3
+Run number(1) 5:06:07 2.0
+
+Run number(2) 5:07:09 2.0
+
+Run number(3) 2:08:07 5.0
+
+Run number(4) 2:03:06 7.0
+
+Run number(5) 12:03:01 7.0
+
+Chose from the Following
+1) RECORD a run
+2) FIND a run by entering time and distance w option to remove
+3) VIEW all the runs in the Journal
+4) DISPLAY runs of a specific distance
+5) SORT by TIME
+6) SORT by DISTANCE
+7) TOTAL TIME
+8) TOTAL DISTANCE
+9) AVERAGE PACE
+0) QUIT
+0
+Thank you for using our software.
+bash-3.2$ exit
+
+Script done on Fri Jan 31 13:13:49 2020
