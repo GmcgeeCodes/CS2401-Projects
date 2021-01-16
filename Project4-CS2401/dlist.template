@@ -1,0 +1,216 @@
+template <class T>
+void dlist<T>::front_insert(const T &other){
+    if(head == NULL){
+        head = tail = new node<T>(other);
+        return;
+    }
+    node<T> *insert_ptr = head;
+    head = new node<T>(other, NULL, insert_ptr);
+    insert_ptr -> set_previous(head);
+}
+
+template <class T>
+void dlist<T>::rear_insert(const T& other){
+    if(head == NULL){
+        head = tail = new node<T>(other);
+        return;
+    }
+
+    node<T>* insert_ptr = tail;
+    tail = new node<T>(other, insert_ptr);
+    insert_ptr -> set_next(tail);
+}
+
+template <class T>
+void dlist<T>::front_remove(){
+    node<T> *rm_ptr = head;
+    if (head == NULL) return;
+
+    else if(size() == 1){ // one item list 
+        tail = head = NULL;
+    }
+    else{
+        head = head -> next();
+        head -> set_previous(NULL);
+    }
+    delete rm_ptr;
+}
+
+template <class T>
+void dlist<T>::rear_remove(){
+    node<T> *rm_ptr = tail;
+    if (tail == NULL) return;
+  
+    else if(size() == 1){
+        tail = head = NULL;
+    }
+    else{
+        tail = tail -> previous();
+        tail -> set_next(NULL);
+    }
+    delete rm_ptr;
+}
+
+template <class T>
+void dlist<T>::show(){
+    const node<T> *cursor;
+
+    for (cursor = head; cursor != NULL; cursor = cursor -> next()){
+        std::cout << cursor -> data() << std::endl;
+    }
+}
+
+template <class T>
+void dlist<T>::reverse_show(){
+    const node<T> *cursor;
+
+    for(cursor = tail; cursor != NULL; cursor = cursor -> previous()){
+        std::cout << cursor -> data() << std::endl;
+    }
+}
+
+template <class T>
+int dlist<T>::size(){
+    const node<T> *cursor;
+    int i = 0;
+    for(cursor = head; cursor != NULL; cursor = cursor -> next())
+        ++i;
+    return i;
+}
+
+template <class T> 
+void dlist<T>::insert_before(const iterator &spot, const T& data){
+    if(head == NULL){ // insert at the head if empty list
+        front_insert(data);
+        return; 
+    }
+    node<T>* previous_ptr = spot.current -> previous();
+
+    if(previous_ptr == r_end().current || previous_ptr == r_end().current){ //  if previous_ptr is off end of list
+        if(previous_ptr == r_end().current){
+            front_insert(data);
+            return;
+        }
+        else{
+            rear_insert(data);
+            return;
+        }
+    }
+    else{
+        previous_ptr -> set_next(new node<T>(data, previous_ptr, spot.current));
+        spot.current -> set_previous(previous_ptr -> next());
+    }
+}
+
+template <class T> 
+void dlist<T>::insert_after(const iterator& spot, const T& data){
+    if (tail == NULL){
+        rear_insert(data);
+        return;
+    }
+    node<T>* after_ptr = spot.current -> next();
+
+    if(after_ptr == end().current || after_ptr == r_end().current){
+        if(after_ptr == end().current){
+            rear_insert(data);
+            return;
+        }
+        else{
+            front_insert(data);
+            return;
+        }
+    }
+    else{
+        after_ptr -> set_previous(new node<T>(data, spot.current, after_ptr));
+        spot.current -> set_next(after_ptr -> previous());
+    }
+}
+
+template <class T>
+void dlist<T>::remove(const iterator& spot){
+    if (head == NULL || spot.current == NULL){
+        std::cout << "There is nothing here to remove!" << std::endl;
+        return;
+    } 
+    else if(size() == 1){
+        front_remove();
+        return;
+    }
+    node<T>* rm_ptr = spot.current;
+    node<T>* previous_ptr = spot.current -> previous();
+    node<T>* after_ptr = spot.current -> next();
+
+    if ((after_ptr == end().current) || (previous_ptr == r_end().current )){
+        if(after_ptr == end().current){
+            std::cout << "after" << std::endl;
+            rear_remove();
+            return;
+        } else{
+            std::cout <<"previous" << std::endl;
+            front_remove();
+            return;
+        }
+    }
+    std::cout <<"The end" << std::endl;
+    previous_ptr -> set_next(after_ptr);
+    after_ptr -> set_previous(previous_ptr);
+    delete rm_ptr;
+}
+
+template <class T>
+dlist<T>::~dlist(){
+    node<T> * rmptr;
+    while(head != NULL){
+        rmptr = head;
+        head = head -> next();
+        delete rmptr;
+    }
+}
+
+template <class T>
+dlist<T>::dlist(const dlist<T>& source){
+    if(source.head == NULL){ // check for empty list
+        head = tail = NULL;
+        return;
+    }
+    tail = head = new node<T>(source.head -> data());
+    node<T> *dest_ptr = head;
+    node<T> *source_ptr = source.head -> next();
+
+    while(source_ptr != NULL){
+        dest_ptr -> set_next(new node<T>(source_ptr -> data(), dest_ptr));
+        dest_ptr = dest_ptr -> next();
+        tail = dest_ptr;
+        source_ptr = source_ptr -> next();
+    }
+}
+
+template <class T>
+void dlist<T>::operator =(const dlist<T>& source){
+    if (this == &source) return; // self-assignment check
+
+    if(source.head == NULL){
+        head = tail = NULL;
+        return;
+    }
+
+    node<T>* rm_ptr;
+    while(head != NULL){
+        rm_ptr = head;
+        head = head -> next();
+        delete rm_ptr;
+    }
+
+    tail = head = new node<T>(source.head -> data());
+    node<T> *dest_ptr = head;
+    node<T> *source_ptr = source.head -> next();
+
+
+    while(source_ptr != NULL){
+        dest_ptr -> set_next(new node<T>(source_ptr -> data(), dest_ptr));
+        dest_ptr = dest_ptr -> next();
+        tail = dest_ptr;
+        source_ptr = source_ptr -> next();
+    }
+}
+
