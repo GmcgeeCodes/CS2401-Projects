@@ -1,0 +1,99 @@
+Script started on Tue Apr  7 17:15:10 2020
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+[?1034hbash-3.2$ ./a.outgit pushcommit -m "continuing to debug, we might be all good now, version compiles"[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd -A[K[3P./a.outg++ *.cc
+bash-3.2$ ./a.out
+Which animal would you like to design a house for?
+Enter the number 1 for a Wolf
+Enter the number 2 for a Lion
+Enter the number 3 for a Bear
+Enter the number 4 for a Meerkat
+Enter the number 5 for a Clownfish
+Enter the number 6 to display all of the homes. 
+Enter 0 if you are done designing animal homes
+6
+The ocean the clownfish sea anenome is in the pacific
+The sea anenome is electric.
+The sea anenome is in deep water.
+The clownfish capacity of this home: 12
+The clownfish community does not have a school for fish.
+The clownfish in this home are related to nemo!
+Anenome Tentacle Length: 34ft 
+
+The ocean the clownfish sea anenome is in the atlantic ocean
+The sea anenome is not electric.
+The sea anenome is in shallow water.
+The clownfish capacity of this home: 56
+The clownfish community does not have a school for fish.
+The clownfish in this home are related to nemo!
+Anenome Tentacle Length: 24ft 
+
+Which animal would you like to design a house for?
+Enter the number 1 for a Wolf
+Enter the number 2 for a Lion
+Enter the number 3 for a Bear
+Enter the number 4 for a Meerkat
+Enter the number 5 for a Clownfish
+Enter the number 6 to display all of the homes. 
+Enter 0 if you are done designing animal homes
+1
+Welcome to designing a Wolf home
+How many wolfs can live in the wolf den?: 
+12
+Is this wolf den in the wild or is it in the zoo? w - wild or z - zoo
+z
+What type of habitat does the wolf live in?
+ Enter the number one: Mountain
+Enter the number two: Tundra
+Enter the number three: Grasslands
+Enter the number four: Forests
+3
+Is the wolf home near a stream? Type Y if it is or N if it is not
+n
+Is the deer around this den plentiful? Type Y if it is or N if it is not
+y
+Which animal would you like to design a house for?
+Enter the number 1 for a Wolf
+Enter the number 2 for a Lion
+Enter the number 3 for a Bear
+Enter the number 4 for a Meerkat
+Enter the number 5 for a Clownfish
+Enter the number 6 to display all of the homes. 
+Enter 0 if you are done designing animal homes
+6
+The ocean the clownfish sea anenome is in the pacific
+The sea anenome is electric.
+The sea anenome is in deep water.
+The clownfish capacity of this home: 12
+The clownfish community does not have a school for fish.
+The clownfish in this home are related to nemo!
+Anenome Tentacle Length: 34ft 
+
+The ocean the clownfish sea anenome is in the atlantic ocean
+The sea anenome is not electric.
+The sea anenome is in shallow water.
+The clownfish capacity of this home: 56
+The clownfish community does not have a school for fish.
+The clownfish in this home are related to nemo!
+Anenome Tentacle Length: 24ft 
+
+Pack Number: 12
+Wolf den is located in the zoo
+Habitat Type: Grasslands
+Wolf den is not located near a stream
+Prey is plentiful
+
+Which animal would you like to design a house for?
+Enter the number 1 for a Wolf
+Enter the number 2 for a Lion
+Enter the number 3 for a Bear
+Enter the number 4 for a Meerkat
+Enter the number 5 for a Clownfish
+Enter the number 6 to display all of the homes. 
+Enter 0 if you are done designing animal homes
+0
+bash-3.2$ exit
+
+Script done on Tue Apr  7 17:16:40 2020
